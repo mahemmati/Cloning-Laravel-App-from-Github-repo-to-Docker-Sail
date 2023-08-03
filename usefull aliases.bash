@@ -1,18 +1,19 @@
+alias s="bash vendor/bin/sail"
 alias sail="bash vendor/bin/sail"
-alias up="bash vendor/bin/sail up -d"
-alias down="bash vendor/bin/sail down"
-
-alias snode="bash vendor/bin/sail node"
-alias snpm="bash vendor/bin/sail npm"
-alias scomposer="bash vendor/bin/sail composer"
+alias u="bash vendor/bin/sail up -d"
+alias d="bash vendor/bin/sail down"
 
 alias artisan="bash vendor/bin/sail artisan"
-alias art="bash vendor/bin/sail artisan"
+alias a="bash vendor/bin/sail artisan"
 
-alias am="bash vendor/bin/sail artisan migrate"
-alias amf="bash vendor/bin/sail artisan migrate:fresh"
-alias amfs="bash vendor/bin/sail artisan migrate:fresh --seed"
+alias mmd="bash vendor/bin/sail artisan make:model"
+alias mmd-a="bash vendor/bin/sail artisan make:model --all"
 
-alias amma="bash vendor/bin/sail artisan make:model --all"
+alias mcp="bash vendor/bin/sail artisan make:component"
+alias mcp-v="bash vendor/bin/sail artisan make:component --view"
 
-alias at="bash vendor/bin/sail artisan test"
+alias mg="bash vendor/bin/sail artisan migrate"
+alias mgf="bash vendor/bin/sail artisan migrate:fresh"
+alias mgf-s="bash vendor/bin/sail artisan migrate:fresh --seed"
+
+alias t="bash vendor/bin/sail artisan test"
